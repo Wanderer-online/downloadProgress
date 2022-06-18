@@ -1,0 +1,37 @@
+body {
+        background-color: rgb(189, 224, 189);
+      }
+      .progressContainer {
+        width: 341px;
+        height: 70px;
+        /* background-color: red; */
+        position: relative;
+        margin: 0 auto;
+      }
+      .progressTop {
+        position: absolute;
+        clip: rect(0px, 190px, 70px, 00px);
+        /* clip-path: polygon(0% 0%, 50% 0%, 50% 100%, 0% 100%); */
+        /* clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); */
+      }
+      .progressBottom {
+        position: absolute;
+        clip: rect(0px, 341px, 70px, 30px);
+        /* clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%); */
+        /* clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%); */
+      }
+
+      .progressMainText,
+      .progressSecondaryText {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        text-align: center;
+        text-transform: capitalize;
+      }
+      .progressMainText {
+        font-weight: 700;
+        font-size: 30px;
+      }
+      .progressSecondaryText {
+        font-size: 20px;
+      }
